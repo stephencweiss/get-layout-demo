@@ -1,8 +1,8 @@
-import { NextPage } from "next";
 import Link from "next/link";
 import { getLayout } from "../components/SiteLayout";
+import { NextPageWithLayout } from "../types";
 
-const Index: NextPage = () => (
+const Index: NextPageWithLayout<unknown> = () => (
   <div className="mt-8 max-w-xl mx-auto px-8">
     <h1 className="text-center">
       <span className="block text-xl text-gray-600 leading-tight">
